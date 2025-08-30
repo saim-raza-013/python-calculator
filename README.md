@@ -1,73 +1,110 @@
-# 🧮 Python Calculator
+# 🧮 Interactive Python Calculator
 
-A **simple yet smart calculator** made with Python that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+Welcome to the **Simple Interactive Python Calculator** project!
 
-This project is built using **core Python** without any external libraries. It’s ideal for beginners who want to understand how to take user input, apply conditional logic, and display output in an interactive way.
-
----
-
-## 🔧 Features
-
-- ➕ Addition
-- ➖ Subtraction
-- ✖️ Multiplication
-- ➗ Division (with zero-division check)
-- 🔁 Runs once per input
-- 🧠 Clean and simple logic
-- 📚 Fully beginner-friendly
+This calculator helps you perform **basic arithmetic operations** (Addition, Subtraction, Multiplication, Division, etc.) using:
+- 📌 Static values (predefined)
+- 📌 User input with **Integer**
+- 📌 User input with **Float**
 
 ---
 
-## 📷 Demo Output
+## 📂 File Versions Included
 
-```
-💡 سادہ کیلکولیٹر
-پہلا نمبر لکھیں: 8
-دوسرا نمبر لکھیں: 4
-کیا کرنا ہے؟ (+, -, *, /): *
-جواب: 32.0
-```
+| File Name                         | Description                                      |
+|----------------------------------|--------------------------------------------------|
+| `calculator_static.py`           | Static calculator with predefined values         |
+| `calculator_input_int.py`        | User enters integer values                       |
+| `calculator_input_float.py`      | User enters float (decimal) values               |
 
 ---
 
-## 🧠 Concepts Covered
+## 🧪 Operations Covered
 
-- `input()` function
-- `float()` conversion
-- `if...elif...else` statements
-- Operators: `+`, `-`, `*`, `/`
-- Error handling (zero division)
+This calculator performs the following operations:
+
+| Operation         | Symbol | Example (`a = 6`, `b = 3`) | Output |
+|------------------|--------|-----------------------------|--------|
+| Addition         | `+`    | `a + b`                     | `9`    |
+| Subtraction      | `-`    | `a - b`                     | `3`    |
+| Multiplication   | `*`    | `a * b`                     | `18`   |
+| Division         | `/`    | `a / b`                     | `2.0`  |
+| Floor Division   | `//`   | `a // b`                    | `2`    |
+| Modulus          | `%`    | `a % b`                     | `0`    |
+| Exponent         | `**`   | `a ** b`                    | `216`  |
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
-1. Install Python (version 3+)
-2. Clone or download this repository
-3. Run the script using terminal or IDE:
+You need **Python installed** (version 3.x). Then, run the desired version:
+
+### 1️⃣ Static Calculator
+
 ```bash
-python calculator.py
-```
+python calculator_static.py
 
----
 
-## 📁 File Structure
+📌 Predefined values of a = 3, b = 4
 
-```
-python-calculator/
-│
-├── calculator.py       # Main Python file
-└── README.md           # This file
-```
+2️⃣ User Input – Integer
+python calculator_input_int.py
 
----
+
+📝 User enters integer values like 4 and 2
+
+🔍 Example Output (User Input - int)
+Enter the first number: 4
+Enter the second number: 2
+Addition       : 6  
+Subtraction    : 2  
+Multiplication : 8  
+Division       : 2.0
+Floor Division : 2  
+Modulus        : 0
+Exponent       : 16
+
+3️⃣ User Input – Float
+python calculator_input_float.py
+
+
+📝 User enters float values like 5.5 and 2.0
+
+🔍 Example Output (User Input - Float)
+Enter the first number: 5.5
+Enter the second number: 2
+
+Addition       : 7.5
+Subtraction    : 3.5
+Multiplication : 11.0
+Division       : 2.75
+Floor Division : 2.0
+Modulus        : 1.5
+Exponent       : 30.25
+
+🎯 Learning Outcomes
+
+By using this project, you will learn:
+
+Basic Python input/output
+
+Data types: int, float
+
+Arithmetic operations
+
+Clean and readable Python formatting
+
+📝 License
+
+This project is free to use under the MIT License
+.
 
 ## 📌 Author
 
 👨‍💻 **Saim Raza**  
 🎓 Student @ GIU Lahore | BSSE – Semester 2  
 💡 Passionate about Python, AI, and Robotics  
-📬 [Add your GitHub profile link here]
+📬 [https://github.com/saim-raza-013]
 
 ---
 
